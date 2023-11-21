@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap');
 /* =================================================================== 
  *
  *  Glint v1.0 Main Stylesheet
@@ -75,7 +76,7 @@ html, body {
 
 body {
     background: #ffffff;
-    font-family: "lora-regular", serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
@@ -113,7 +114,7 @@ a:hover, a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: 'Lato', sans-serif;
     color: rgb(47 43 40);;
     font-style: normal;
     font-weight: normal;
@@ -790,8 +791,8 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     display: inline-block;
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 1.2rem;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
     height: 5.4rem;
@@ -1215,7 +1216,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 7.8rem;
     line-height: 1.25;
     color: #6f0a0d;
@@ -1227,7 +1228,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 5.2rem;
     line-height: 1.255;
     color: #6f0a0d;
@@ -1243,7 +1244,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-    font-family: "montserrat-bold", sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 1.7rem;
     line-height: 1.333;
     text-transform: uppercase;
@@ -1511,12 +1512,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav h3 {
-    font-family: "montserrat-semibold", sans-serif;
-    font-size: 11px;
+    font-family: "Inconsolata-semibold", monospace;
+    font-size: 15px;
+    font-weight: bold;
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    margin-bottom: 4.8rem;
+    margin-bottom: 2.8rem;
     margin-top: .9rem;
     color: #E35134;
 }
@@ -1533,7 +1535,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__list {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 1.8rem;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
@@ -1652,8 +1654,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 42px;
     width: 42px;
     line-height: 42px;
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 1.3rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.7rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
     color: #ff904d;
@@ -1763,7 +1765,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     opacity: .4;
     background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.8) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#6f0a0d00', endColorstr='#cc000000', GradientType=0);
 }
 
@@ -1796,7 +1798,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h3 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: 'Insolata', monospace;
     font-size: 1.6rem;
     color: #121212;
     text-transform: uppercase;
@@ -1808,7 +1810,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
@@ -1852,8 +1854,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a {
-    font-family: "montserrat-semibold", sans-serif;
-    font-size: 1rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
     color: #121212;
@@ -1900,7 +1902,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## home social 
  * ------------------------------------------------------------------- */
 .home-social {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "Inconsolata", monospace;
     list-style: none;
     margin: 0;
     position: absolute;
@@ -1951,7 +1953,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-social span {
     color: #6f0a0d;
     right: 4.5rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0);
@@ -3415,7 +3417,7 @@ html.no-csstransitions .home-content__main {
   color: #6f0a0d;
   font-size: 36px;
   -webkit-font-smoothing: antialiased;
-  font-family: "TT Norms Pro", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
 .impress_area .impress_inner p {
@@ -3538,18 +3540,19 @@ html.no-csstransitions .home-content__main {
   font-size: 20px;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
-  font-family: "TT Norms Pro", sans-serif;
+  font-family: 'Lato', sans-serif;
   margin-bottom: 0px;
 }
 
 .ab_widget p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
   -webkit-font-smoothing: antialiased;
-  font-family: "TT Norms Pro", sans-serif;
+  font-family: 'Inconsolata', monospace;
   color: #6f0a0d;
   font-weight: 500;
   margin-bottom: 30px;
+  margin-left: -10px;
 }
 .ab_widget p a {
   color: #8252fa;
