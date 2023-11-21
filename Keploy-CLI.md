@@ -5,11 +5,16 @@
 ## Table of Contents
 
 Keploy CLI has the following <b> commands </b>:
-- [record](#record)
-- [test](#test)
-- [generate-config](#generate-config)
-- [example](#example)
-- [completion](#completion)
+
+- [ Keploy CLI Docs ](#-keploy-cli-docs-)
+  - [Table of Contents](#table-of-contents)
+    - [Usage](#usage)
+    - [Common flags to use with all commands](#common-flags-to-use-with-all-commands)
+  - [record](#record)
+  - [test](#test)
+  - [generate-config](#generate-config)
+  - [example](#example)
+  - [completion](#completion)
 
 ### Usage
 
@@ -68,7 +73,7 @@ keploy test [flags]
 - `-p, --path string` - Path to the local directory where the recorded testcases and generated mocks are to be saved.
 - `--proxyport uint32` - Port to choose to run Keploy as a proxy.
 - `-t, --testsets strings` - To specify which specific testsets are to be executed. The default is all testsets.
-- - `--debug` - To start executing testcases with debug mode enabled.
+  - - `--debug` - To start executing testcases with debug mode enabled.
 
 ## [generate-config](#generate-config)
 
