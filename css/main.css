@@ -793,7 +793,7 @@ input[type="button"] {
     display: inline-block;
     font-family: "Inconsolata", monospace;
     font-size: 1.3rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: .3rem;
     height: 5.4rem;
     line-height: calc(5.4rem - .4rem);
@@ -1655,7 +1655,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 42px;
     line-height: 42px;
     font-family: 'Inconsolata', monospace;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
     color: #ff904d;
@@ -1801,12 +1801,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: 'Insolata', monospace;
     font-size: 1.6rem;
     color: #121212;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: .3rem;
     position: relative;
     margin-top: 0;
     margin-bottom: 1.2rem;
     margin-left: 6px;
+    font-weight: 600;
 }
 
 .home-content h1 {
@@ -1815,6 +1816,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     margin-top: 0;
     color: #FF914D;
+    font-weight: 800;
 }
 
 .home-content__main {
