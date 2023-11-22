@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img align="center" src="https://docs.keploy.io/img/keploy-logo-dark.svg?s=200&v=4" height="30%" width="30%"  alt="keploy logo"/>
+  <img align="center" src="https://docs.keploy.io/img/keploy-logo-dark.svg?s=200&v=4" height="40%" width="40%"  alt="keploy logo"/>
 </p>
 
 <h1 align="center">
