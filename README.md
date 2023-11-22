@@ -1,5 +1,13 @@
-![keploy.png](https://github.com/Shashwat79802/Writer-s-Program/blob/main/Typewriter-pana.png)
-# <img src='keploy.png' alt='keploy logo' height='65'  style="margin-bottom: -10px;"> Keploy's Writers Program v1.0
+
+<p align="center">
+  <img align="center" src="https://docs.keploy.io/img/keploy-logo-dark.svg?s=200&v=4" height="30%" width="30%"  alt="keploy logo"/>
+</p>
+
+<h1 align="center">
+<b>
+Writers Program
+</b>
+</h1 >
 
 At Keploy, we're always looking for new ways for our community to get involved in what we do. And so this time, we introduce a new writer's program to pay writers from the community to write technical content for software developers. Through this program, authors can now either **earn or get swags worth up to 100$** for publishing content on our blog.
 
